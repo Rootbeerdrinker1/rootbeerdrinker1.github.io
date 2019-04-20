@@ -7,7 +7,7 @@
 #header {
 	width: 100%;
 	height: auto;
-	background-color: #373B57;
+	background-color: #034160;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -16,11 +16,11 @@
 	text-align: center;
 	font-size: 4vw;
 	font-family: Trebuchet MS;
-	text-shadow: .3vw .3vw #000000;
-	color: #C0C0C0;
+	text-shadow: .2vw .2vw #C0C0C0;
+	color: #FFFFFF;
 }
 body {
 	padding: 0px;
 	margin: 0px;
-	background-color: #54597F;
+	background-color: #055881;
 }
