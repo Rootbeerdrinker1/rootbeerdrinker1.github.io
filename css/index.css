@@ -17,10 +17,19 @@
 		margin: 0px;
 		background-color: #055881;
 	}
+	#content {
+		background-color: #288ab7;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		height: 100vw;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
 
 
 /*EVERYTHING ELSE*/
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 701px) {
 
 	
 	#header p {
@@ -36,15 +45,16 @@
 }
 
 /*MOBILE */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 	
 	#header p {
 		margin: 0px;
 		text-align: center;
 		font-size: 6vw;
 		font-family: Trebuchet MS;
-		text-shadow: .07vw .07vw #C0C0C0;
+		text-shadow: .25vw .25vw #C0C0C0;
 		color: #FFFFFF;
 	}
+	
 	
 }
