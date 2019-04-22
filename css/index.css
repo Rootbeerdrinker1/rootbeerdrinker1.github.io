@@ -15,7 +15,9 @@
 	body {
 		padding: 0px;
 		margin: 0px;
-		background-color: #055881;
+		background-size: 10vw 10vw;
+		background-image: url("../img/bgt_3.png");
+		background-repeat: repeat;
 	}
 	#content {
 		background-color: #288ab7;
@@ -54,6 +56,9 @@
 		font-family: Trebuchet MS;
 		text-shadow: .25vw .25vw #C0C0C0;
 		color: #FFFFFF;
+	}
+	body {
+		
 	}
 	
 	
