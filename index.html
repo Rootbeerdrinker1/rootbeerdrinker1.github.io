@@ -1,0 +1,57 @@
+<html>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Arimo|Exo|Francois+One&display=swap" rel="stylesheet">
+
+    
+    
+<body>
+    
+    <div id="Header">Rootbeerdrinker1.com</div>  
+    <div id="Menu">
+        <div id="HomeTab"><div id="HomeText">Home</div></div>
+        <div id="SchoolTab"><div id="SchoolText">School Projects</div></div>
+        <div id="PersonalTab"><div id="PersonalText">Home Projects</div></div>
+    </div>
+    
+    
+    
+        <div id = "space">Space</div> 
+    <div  id="HomeSideTab"><div id="HomeSideText">Home</div></div>
+    <div id="SchoolSideTab"><div id="SchoolSideText">School <br> Projects</div></div>
+    <div id="PersonalSideTab"><div id="PersonalSideText">Home <br> Projects</div></div>
+    
+    
+    
+    
+    
+    
+    <script>
+            
+        
+        
+        
+        
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+         
+            if (document.body.scrollTop > 280 || document.documentElement.scrollTop > 280) {
+                        document.getElementById("HomeSideTab").style.top = 50;
+                        document.getElementById("SchoolSideTab").style.top = 50;
+                        document.getElementById("PersonalSideTab").style.top = 50;
+
+            }else{
+                       document.getElementById("HomeSideTab").style.top = -300;
+                        document.getElementById("SchoolSideTab").style.top = -300;
+                        document.getElementById("PersonalSideTab").style.top = -300;
+            }
+        }
+    
+   
+    
+    </script>
+        
+    
+</body>
+
+</html>
