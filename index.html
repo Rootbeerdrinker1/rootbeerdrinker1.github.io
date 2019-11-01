@@ -8,9 +8,25 @@
     
     <div id="Header">Rootbeerdrinker1.com</div>  
     <div id="Menu">
-        <div id="HomeTab"><div id="HomeText">Home</div></div>
-        <div id="SchoolTab"><div id="SchoolText">School Projects</div></div>
-        <div id="PersonalTab"><div id="PersonalText">Home Projects</div></div>
+        <div id="HomeTab"><div onselectstart="return false" id="HomeText">Home</div></div>
+        <div onClick="SchoolDrop()" id="SchoolTab"><div onselectstart="return false" id="SchoolText">School Projects</div></div>
+            <div id="SchoolDrop">
+        
+                <div onselectstart="return false" id="School_All">All</div>
+                <div onselectstart="return false" id="S_VB">Visual Basic</div>
+                <div onselectstart="return false" id="S_Flash">Flash</div>
+                <div onselectstart="return false" id="S_Web">Html | CSS | Javascript</div>
+                
+            </div>
+       <div onClick="PersonalDrop()" id="PersonalTab"><div onselectstart="return false" id="PersonalText">Home Projects</div></div>
+            <div id="PersonalDrop">
+
+                    <div onselectstart="return false" id="Personal_All">All</div>
+                    <div onselectstart="return false" id="P_Scratch">Scratch</div>
+                    <div onselectstart="return false" id="P_Flash">Flash</div>
+                    <div onselectstart="return false" id="P_Web">Html/CSS/Javascript</div>
+
+            </div>
     </div>
     
     
@@ -27,7 +43,31 @@
     
     <script>
             
-        
+        function SchoolDrop() {
+            if(document.getElementById("SchoolDrop").style.display != "block"){
+                document.getElementById("PersonalDrop").style.display = "none";
+                setTimeout(function() {
+                    document.getElementById("SchoolDrop").style.display = "block";
+                }, 20);
+                
+            }else{
+                document.getElementById("SchoolDrop").style.display = "none";
+                document.getElementById("PersonalDrop").style.display = "none";
+            }
+        }
+        function PersonalDrop() {
+            if(document.getElementById("PersonalDrop").style.display != "block"){
+                
+                document.getElementById("SchoolDrop").style.display = "none";
+                setTimeout(function() {
+                    document.getElementById("PersonalDrop").style.display = "block";
+                }, 20);
+                
+            }else{
+                document.getElementById("PersonalDrop").style.display = "none";
+                document.getElementById("SchoolDrop").style.display = "none";
+            }
+        }
         
         
         

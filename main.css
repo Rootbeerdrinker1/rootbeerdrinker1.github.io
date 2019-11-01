@@ -49,16 +49,22 @@ body {
     border-color: 66FCF1;
     background-color: 1F2833;
     
-    transition-duration: .5s;
+    
     
 }
 #HomeTab:hover, #SchoolTab:hover, #PersonalTab:hover,
-#HomeSideTab:hover, #SchoolSideTab:hover, #PersonalSideTab:hover
+#School_All:hover, #S_VB:hover, #S_Flash:hover, #S_Web:hover,
+#Personal_All:hover, #P_Scratch:hover, #P_Flash:hover, #P_Web:hover
 {
     background-color: C5C6C7;
     color: 1F2833;
+    transition-duration: .25s;
     
-    
+}
+#HomeSideTab:hover, #SchoolSideTab:hover, #PersonalSideTab:hover {
+    background-color: C5C6C7;
+    color: 1F2833;
+     
 }
 
 #SchoolTab, #SchoolSideTab {
@@ -83,7 +89,6 @@ body {
     border-style:solid;
     border-color: 66FCF1;
 
-    transition-duration: .5s;
 }
 
 #PersonalTab, #PersonalSideTab {
@@ -109,13 +114,13 @@ body {
     border-style:solid;
     border-color: 66FCF1;
     
-    transition-duration: .5s;
 }
 #HomeSideTab{
     
     width: 180px;
     height: 42px;
     position: fixed;
+    transition-duration: .5s;
     
 
 }
@@ -127,6 +132,7 @@ body {
     
     padding-top: 0px;
     padding-bottom: 12px;
+    transition-duration: .5s;
     
 
     
@@ -138,6 +144,7 @@ body {
     margin-top: 98px;
     
     padding-bottom: 10px;
+    transition-duration: .5s;
     
 
     
@@ -154,9 +161,12 @@ body {
     
     border-width: 2px;
     border-style:solid;
-    border-color: C5C6C7;
+    border-color: 1F2833;
     
     padding: 5px;
+    
+    box-shadow: 0px 0px 20px 0px #000000;
+    
 }
 
 
@@ -173,4 +183,68 @@ body {
 
 #PersonalSideText {
     margin-top: 1%;
+}
+
+#School_All, #S_VB, #S_Flash, #S_Web,
+#Personal_All, #P_Scratch, #P_Flash, #P_Web
+{
+    width: 24.945%;
+    height: 21px;
+    float: left;
+        
+    font-family: 'Francois One', sans-serif;
+    font-style: italic;
+    letter-spacing: .2em;
+    text-align: center;
+    color: C5C6C7;
+    font-size: 15px;
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+    background-color: 3B4C60;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    
+    
+    border-style:solid;
+    border-color: 1F2833;
+    border-top-color: 66FCF1;
+    
+
+    
+    
+}
+#Personal_All, #P_Scratch, #P_Flash, #P_Web{
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    
+    
+    border-style:solid;
+    border-color: 1F2833;
+    border-bottom-color: 66FCF1;
+}
+#S_Web , #P_Web{
+    border-right-width: 0px;
+}
+
+#PersonalTab{
+    width: 100%;
+}
+
+
+#SchoolDrop, #PersonalDrop{
+    height: 28px;
+    width: 100%;
+    display: none;
+    
+    transition-duration: .5s;
+
+
+}
+
+#Menu {
+    height: auto;
 }
