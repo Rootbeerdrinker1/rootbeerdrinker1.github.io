@@ -202,21 +202,24 @@ body {
     padding-top: 3px;
     padding-bottom: 3px;
     
-    background-color: 3B4C60;
+    background-color: 2B3847;
     border-width: 0px;
     border-top-width: 1px;
-    border-right-width: 1px;
+    
     
     
     border-style:solid;
     border-color: 1F2833;
     border-top-color: 66FCF1;
     
-
-    
-    
+}
+#School_All, #S_VB, #S_Flash,
+#Personal_All, #P_Scratch, #P_Flash
+{
+   border-right-width: 1px; 
 }
 #Personal_All, #P_Scratch, #P_Flash, #P_Web{
+    background-color: 2B3847;
     border-width: 0px;
     border-bottom-width: 1px;
     border-right-width: 1px;
