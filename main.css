@@ -1,253 +1,232 @@
+a {
+    text-decoration: none;
+}
+
+.whitetext {
+    color: white;
+    float: left;
+}
+
+.floatsideleft {
+    float: left;
+    margin-left: .5em;
+}
 
 #Header {
-   
-    font-family: 'Francois One', sans-serif;
-    font-style: italic;
-    letter-spacing: .2em;
-    text-align: center;
-    text-shadow: 2px 2px #45A29E;
-    
-    color: 66FCF1;
-    font-size: 60px;
-    
-    width: 100%;
-    height: 40px;
-    
-    padding-top: 40px;
-    padding-bottom: 80px;
-    
-    background-color: 0B0C10;
-
-    
-    
+    font-family:'Francois One', sans-serif;
+    font-style:italic;
+    letter-spacing:.2em;
+    text-align:center;
+    text-shadow:2px 2px #45A29E;
+    color:#66FCF1;
+    font-size:60px;
+    width:100%;
+    height:40px;
+    padding-top:40px;
+    padding-bottom:80px;
+    background-color:#0B0C10;
 }
 
 body {
-    background-color: 45A29E; ;
-    margin: 0px;
-    
+    background-color:#45A29E;
+    margin:0px;
 }
 
-
-#HomeTab, #HomeSideTab {
-    font-family: 'Francois One', sans-serif;
-    font-style: italic;
-    letter-spacing: .2em;
-    text-align: center;
-    color: C5C6C7;
-    font-size: 15px;
-    
-    width: 100%;
-    height: 21px;
-    
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border-width: 0px;
-    border-top-width: 1px;
-    border-right-width: 1px;
+#HomeTab,#HomeSideTab {
+    font-family:'Francois One', sans-serif;
+    font-style:italic;
+    letter-spacing:.2em;
+    text-align:center;
+    color:#C5C6C7;
+    font-size:15px;
+    width:100%;
+    height:21px;
+    padding-top:3px;
+    padding-bottom:3px;
+    background-color:#1F2833;
+    border-color:0;
     border-style:solid;
-    border-color: 66FCF1;
-    background-color: 1F2833;
-    
-    
-    
-}
-#HomeTab:hover, #SchoolTab:hover, #PersonalTab:hover,
-#School_All:hover, #S_VB:hover, #S_Flash:hover, #S_Web:hover,
-#Personal_All:hover, #P_Scratch:hover, #P_Flash:hover, #P_Web:hover
-{
-    background-color: C5C6C7;
-    color: 1F2833;
-    transition-duration: .25s;
-    
-}
-#HomeSideTab:hover, #SchoolSideTab:hover, #PersonalSideTab:hover {
-    background-color: C5C6C7;
-    color: 1F2833;
-     
+    border-width:1px 1px 0 0;
 }
 
-#SchoolTab, #SchoolSideTab {
-   
-    font-family: 'Francois One', sans-serif;
-    font-style: italic;
-    letter-spacing: .2em;
-    text-align: center;
-    color: C5C6C7;
-    font-size: 15px;
-    
-    width: 100%;
-    height: 21px;
-    
-    padding-top: 3px;
-    padding-bottom: 3px;
-    
-    background-color: 1F2833;
-    border-width: 0px;
-    border-top-width: 1px;
-    border-right-width: 1px;
+#HomeTab:hover,#SchoolTab:hover,#PersonalTab:hover,#School_All:hover,#S_VB:hover,#S_Flash:hover,#S_Web:hover,#Personal_All:hover,#P_Scratch:hover,#P_Flash:hover,#P_Web:hover, #HomeSideTab:hover,#SchoolSideTab:hover,#PersonalSideTab:hover {
+    cursor:pointer;
+    background-color:#C5C6C7;
+    color:#1F2833;
+    transition-duration:.25s;
+}
+
+#SchoolTab,#SchoolSideTab {
+    font-family:'Francois One', sans-serif;
+    font-style:italic;
+    letter-spacing:.2em;
+    text-align:center;
+    color:#C5C6C7;
+    font-size:15px;
+    width:100%;
+    height:21px;
+    padding-top:3px;
+    padding-bottom:3px;
+    background-color:#1F2833;
+    border-color:#66FCF1;
     border-style:solid;
-    border-color: 66FCF1;
-
+    border-width:1px 1px 0 0;
 }
 
-#PersonalTab, #PersonalSideTab {
-   
-    font-family: 'Francois One', sans-serif;
-    font-style: italic;
-    letter-spacing: .2em;
-    text-align: center;
-    color: C5C6C7;
-    font-size: 15px;
-    
-    width: 100%;
-    height: 21px;
-    
-    padding-top: 3px;
-    padding-bottom: 3px;
-    
-    background-color: 1F2833;
-    border-width: 0px;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
+#PersonalTab,#PersonalSideTab {
+    font-family:'Francois One', sans-serif;
+    font-style:italic;
+    letter-spacing:.2em;
+    text-align:center;
+    color:#C5C6C7;
+    font-size:15px;
+    width:100%;
+    height:21px;
+    padding-top:3px;
+    padding-bottom:3px;
+    background-color:#1F2833;
+    border-color:#66FCF1;
     border-style:solid;
-    border-color: 66FCF1;
-    
+    border-width:1px 1px 1px 0;
 }
-#HomeSideTab{
-    
-    width: 180px;
-    height: 42px;
-    position: fixed;
-    transition-duration: .5s;
-    
 
+#HomeSideTab {
+    width:180px;
+    height:42px;
+    position:fixed;
+    transition-duration:.5s;
+    border-color:#66FCF1;
+    border-style:solid;
+    border-width:1px 1px 0px 0px;
 }
-#SchoolSideTab{
-    width: 180px;
-    height: 42px;
-    position: fixed;
-    margin-top: 49px;
-    
-    padding-top: 0px;
-    padding-bottom: 12px;
-    transition-duration: .5s;
-    
 
-    
+#SchoolSideTab {
+    width:180px;
+    height:42px;
+    position:fixed;
+    margin-top:49px;
+    padding-top:0;
+    padding-bottom:12px;
+    transition-duration:.5s;
 }
-#PersonalSideTab{
-    width: 180px;
-    height: 42px;
-    position: fixed;
-    margin-top: 98px;
-    
-    padding-bottom: 10px;
-    transition-duration: .5s;
-    
 
-    
+#PersonalSideTab {
+    width:180px;
+    height:42px;
+    position:fixed;
+    margin-top:98px;
+    padding-bottom:10px;
+    transition-duration:.5s;
 }
 
 #space {
-    height: 2000px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: 0B0C10;
-    color: C5C6C7;
-    
-    border-width: 2px;
+    height:auto;
+    background-color:#0B0C10;
+    color:#C5C6C7;
+    box-shadow:0 0 20px 0 #000;
+    border-color:0;
     border-style:solid;
-    border-color: 1F2833;
-    
-    padding: 5px;
-    
-    box-shadow: 0px 0px 20px 0px #000000;
-    
+    border-width:2px;
+    margin:20px 200px;
+    padding:5px;
 }
 
-
-
-
-
 #HomeSideText {
-    margin-top: 6%;
+    margin-top:6%;
 }
 
 #SchoolSideText {
-    margin-top: 2%;
+    margin-top:2%;
 }
 
 #PersonalSideText {
-    margin-top: 1%;
+    margin-top:1%;
 }
 
-#School_All, #S_VB, #S_Flash, #S_Web,
-#Personal_All, #P_Scratch, #P_Flash, #P_Web
-{
-    width: 24.94%;
-    height: 21px;
-    float: left;
-        
-    font-family: 'Francois One', sans-serif;
-    font-style: italic;
-    letter-spacing: .2em;
-    text-align: center;
-    color: C5C6C7;
-    font-size: 15px;
-    
-    padding-top: 3px;
-    padding-bottom: 3px;
-    
-    background-color: 2B3847;
-    border-width: 0px;
-    border-top-width: 1px;
-    
-    
-    
+#School_All,#S_VB,#S_Flash,#S_Web,#Personal_All,#P_Scratch,#P_Flash,#P_Web {
+    width:24.94%;
+    height:21px;
+    float:left;
+    font-family:'Francois One', sans-serif;
+    font-style:italic;
+    letter-spacing:.2em;
+    text-align:center;
+    color:#C5C6C7;
+    font-size:15px;
+    padding-top:3px;
+    padding-bottom:3px;
+    background-color:#394A5E;
+    border-color:#66FCF1 #1F2833 #1F2833;
     border-style:solid;
-    border-color: 1F2833;
-    border-top-color: 66FCF1;
-    
+    border-width:1px 0 0;
 }
-#School_All, #S_VB, #S_Flash,
-#Personal_All, #P_Scratch, #P_Flash
-{
-   border-right-width: 1px; 
+
+#School_All,#S_VB,#S_Flash,#Personal_All,#P_Scratch,#P_Flash {
+    border-right-width:1px;
 }
-#Personal_All, #P_Scratch, #P_Flash, #P_Web{
-    background-color: 2B3847;
-    border-width: 0px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    
-    
+
+#Personal_All,#P_Scratch,#P_Flash,#P_Web {
+    background-color:#394A5E;
+    border-color:#1F2833 #1F2833 #66FCF1;
     border-style:solid;
-    border-color: 1F2833;
-    border-bottom-color: 66FCF1;
-}
-#S_Web , #P_Web{
-    border-right-width: 0px;
+    border-width:0 1px 1px 0;
 }
 
-#PersonalTab{
-    width: 100%;
+#S_Web,#P_Web {
+    border-right-width:0;
 }
 
+#PersonalTab {
+    width:100%;
+}
 
-#SchoolDrop, #PersonalDrop{
-    height: 28px;
-    width: 100%;
-    display: none;
-    
-    transition-duration: .5s;
-
-
+#SchoolDrop,#PersonalDrop {
+    height:28px;
+    width:100%;
+    display:none;
+    transition-duration:.5s;
 }
 
 #Menu {
+    height:auto;
+}
+#TopSpacer {
+    width: 100%;
+    height: 3em; 
+}
+#MidSpacer {
+    width: 100%;
+    height: 7em; 
+}
+
+#ItemHeader {
+    width: 95%;
+    height: 2.5em;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #1F2833;
+   
+}
+
+#ItemBody {
+    width: 95%;
     height: auto;
+    margin: auto;
+    background-color: #1F2833;
+}
+
+#ItemBody img {
+    width: 96%;
+    margin: 2%;
+    
+}
+
+#ItemName {
+    padding-top: .4em;
+    padding-left: .5em;
+    color:#C5C6C7;
+    font-family:'Francois One', sans-serif;
+    font-style:italic;
+    letter-spacing:.2em;
+    font-size: 17px;
 }
